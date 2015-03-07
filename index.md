@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Triatlon ervaringen
 ---
 Juist gelijk alles da we doen is iedere start moeilijk.
