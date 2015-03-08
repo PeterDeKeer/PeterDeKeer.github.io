@@ -28,7 +28,7 @@
   {{ 'output me' }}
   
   {% for i in (1..4) %}
-  {{ i }} 
+  {{ i }}/{{forloop.length}}
 {% endfor %}
 
 {% assign myvariable = false %}
