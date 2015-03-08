@@ -21,6 +21,14 @@
   </header>
   <div role="main">
   {{ content }}
+  
+{% assign shape = 'circle' %}
+{% include 'color' %}
+{% include 'color' with 'red' %}
+{% include 'color' with 'blue' %}
+{% assign shape = 'square' %}
+{% include 'color' with 'red' %}
+
   </div>
   <footer>
     <p>mail: <a href="mailto:hallo@peterdekeer.be">hallo@peterdekeer.be</a></p>
