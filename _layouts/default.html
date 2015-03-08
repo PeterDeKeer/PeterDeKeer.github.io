@@ -21,21 +21,6 @@
   </header>
   <div role="main">
   {{ content }}
-  
-  {% assign color = "blue" %}
-  {% include color.html shape="square" %}
-  
-  {{ site.documents }}
-  
-  {% for i in (1..4) %}
-  {{ i }}/{{forloop.rindex}}
-{% endfor %}
-
-{% assign myvariable = false %}
-{% if myvariable != true %}
-The if statement is valid
-{% endif %}
-
   </div>
   <footer>
     <p>mail: <a href="mailto:hallo@peterdekeer.be">hallo@peterdekeer.be</a></p>
