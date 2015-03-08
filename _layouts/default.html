@@ -26,6 +26,10 @@
   {% include color.html shape="square" %}
   
   {{ 'output me' }}
+  
+  {% for i in (1..4) %}
+  {{ i }} 
+{% endfor %}
 
 {% assign myvariable = false %}
 {% if myvariable != true %}
