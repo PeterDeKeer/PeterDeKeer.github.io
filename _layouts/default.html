@@ -22,7 +22,8 @@
   <div role="main">
   {{ content }}
   
-  {% include color.html color="blue" shape="square" %}
+  {% assign color = "blue" %}
+  {% include color.html shape="square" %}
 
 {% assign myvariable = false %}
 {% if myvariable != true %}
