@@ -8,7 +8,8 @@ Schoon weer, meewind! En nog geen beetje!
 
 Niet veel beter als verwacht, hartslag nog altijd héél hoog.
 
+{{ include imgur.html src="http://i.imgur.com/RTEpYAN.jpg" alt="kapotte lamp in tuin" }}
+<!--<img src="http://i.imgur.com/RTEpYANh.jpg"
+srcset="http://i.imgur.com/RTEpYANs.jpg 150w, http://i.imgur.com/RTEpYANm.jpg 320w, http://i.imgur.com/RTEpYANl.jpg 640w, http://i.imgur.com/RTEpYANh.jpg 1024w" alt="">-->
 
-<img src="http://i.imgur.com/RTEpYANh.jpg"
-srcset="http://i.imgur.com/RTEpYANs.jpg 150w, http://i.imgur.com/RTEpYANm.jpg 320w, http://i.imgur.com/RTEpYANl.jpg 640w, http://i.imgur.com/RTEpYANh.jpg 1024w" alt="kapotte lamp in tuin">
 [brievenbus bovenaan bescchadigd](http://i.imgur.com/IBoyG5v.jpg)
