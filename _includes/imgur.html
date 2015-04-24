@@ -1,1 +1,11 @@
-<img src="{{ include.src | replace: '.jpg', 'h.jpg' }}" sizes="100vw" srcset="{{ include.src | replace: '.jpg', 's.jpg' }} 150w, {{ include.src | replace: '.jpg', 'm.jpg' }} 320w, {{ include.src | replace: '.jpg', 'l.jpg' }} 640w, {{ include.src | replace: '.jpg', 'h.jpg' }} 1024w" alt="{{ include.alt }}">
+<img src="{{ include.src | replace: '.jpg', 't.jpg' }}" sizes="100vw" srcset="{{ include.src | replace: '.jpg', 't.jpg' }} 160w, {{ include.src | replace: '.jpg', 'm.jpg' }} 320w, {{ include.src | replace: '.jpg', 'l.jpg' }} 640w, {{ include.src | replace: '.jpg', 'h.jpg' }} 1024w" alt="{{ include.alt }}">
+{% comment %}
+Original: http://i.imgur.com/RTEpYAN.jpg
+
+90px by 90px     Small Square     http://i.imgur.com/RTEpYANs.jpg  NEVER USE! Scales the image
+160px by 160px   Big Square       http://i.imgur.com/NoRD7nOb.jpg  NEVER USE! Scales the image
+160px square     Small Thumbnail  http://i.imgur.com/NoRD7nOt.jpg
+320px square     Medium Thumbnail http://i.imgur.com/NoRD7nOm.jpg
+640px square     Large Thumbnail  http://i.imgur.com/NoRD7nOl.jpg
+1024px square    Huge Thumbnail   http://i.imgur.com/NoRD7nOh.jpg
+{% endcomment %}
