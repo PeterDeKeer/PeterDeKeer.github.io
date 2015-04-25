@@ -15,8 +15,8 @@ Nu woord per woord dit hier verbeteren en we komen er wel.
 * qdsfsdf
 * sdqf
 
-{% if site.collections.size > 0  %}
-{% for collection in site.collections %}
-  {{ collection }}
+{% if site.documents.size > 0  %}
+{% for document in site.documents %}
+  {{ document }}
 {% endfor %}
 {% endif %}
