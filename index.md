@@ -9,3 +9,4 @@ title: T0-Triatlon ervaringen
 {% endfor %}
 
 ## Uitslagen
+{{site.time}}
