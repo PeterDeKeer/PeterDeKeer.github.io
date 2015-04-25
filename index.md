@@ -14,7 +14,7 @@ title: T0-Triatlon ervaringen
 ## Uitslagen
 {% for wedstrijd in sortedwedstrijden %}
 {% assign wedstrijddate = wedstrijd.date | date: '%s' %}
-{% if wedstrijddate > nu %}
+{% if wedstrijddate < nu %}
 * {{ wedstrijd.date }} -- {{ wedstrijd.date | date: "%a, %b %d, %Y" }} - <a href="{{ wedstrijd.url }}">{{ wedstrijd.title }}</a>
 {% endif %}
 {% endfor %}
