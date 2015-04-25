@@ -6,17 +6,15 @@ title: T0-Triatlon ervaringen
 {% assign nu = site.time | date: '%s' %}
 {% for wedstrijd in sortedwedstrijden %}
 {% assign wedstrijddate = wedstrijd.date | date: '%s' %}
-{% if wedstrijddate => nu %}
+{% if wedstrijddate > nu %}
 * {{ wedstrijd.date }} -- {{ wedstrijd.date | date: "%a, %b %d, %Y" }} - <a href="{{ wedstrijd.url }}">{{ wedstrijd.title }}</a>
 {% endif %}
 {% endfor %}
 
 ## Uitslagen
-{% assign sortedwedstrijden = site.wedstrijden | sort: "date" %}
-{% assign nu = site.time | date: '%s' %}
 {% for wedstrijd in sortedwedstrijden %}
 {% assign wedstrijddate = wedstrijd.date | date: '%s' %}
-{% if wedstrijddate < nu %}
+{% if wedstrijddate > nu %}
 * {{ wedstrijd.date }} -- {{ wedstrijd.date | date: "%a, %b %d, %Y" }} - <a href="{{ wedstrijd.url }}">{{ wedstrijd.title }}</a>
 {% endif %}
 {% endfor %}
