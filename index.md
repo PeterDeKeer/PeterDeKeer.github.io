@@ -15,9 +15,9 @@ Nu woord per woord dit hier verbeteren en we komen er wel.
 * qdsfsdf
 * sdqf
 
-# Wedsttijden
+# Wedstrijden
 {% if site.wedstrijden.size > 0  %}
 {% for wedstrijd in site.wedstrijden %}
-* <a href="{{ wedstrijd.url }}">{{ wedstrijd.title }}</a>
+* {{ wedstrijd.date }} - <a href="{{ wedstrijd.url }}">{{ wedstrijd.title }}</a>
 {% endfor %}
 {% endif %}
