@@ -18,6 +18,6 @@ Nu woord per woord dit hier verbeteren en we komen er wel.
 # Wedstrijden
 {% if site.wedstrijden.size > 0  %}
 {% for wedstrijd in site.wedstrijden %}
-* {{ wedstrijd.date }} - <a href="{{ wedstrijd.url }}">{{ wedstrijd.title }}</a>
+* {{ wedstrijd.date | date: "%A" }} - <a href="{{ wedstrijd.url }}">{{ wedstrijd.title }}</a>
 {% endfor %}
 {% endif %}
