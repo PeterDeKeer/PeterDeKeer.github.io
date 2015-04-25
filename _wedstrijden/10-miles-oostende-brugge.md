@@ -1,6 +1,7 @@
 ---
 title: 10 Miles Oostende Brugge
-date: 01/03/2015 11:00
+date: 01/03/2015
+starttime: 11:00
 result: 1u20
 link: https://connect.garmin.com/modern/activity/708851845
 ---
