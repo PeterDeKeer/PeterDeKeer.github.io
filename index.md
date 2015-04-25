@@ -15,10 +15,8 @@ Nu woord per woord dit hier verbeteren en we komen er wel.
 * qdsfsdf
 * sdqf
 
-{% if site.collections == empty %}
-   no site collections
-{% endif %}
-
 {% if site.collections.size > 0  %}
-   loop over site collections!
+{% for collection in site.collections %}
+  {{ collection }}
+{% endfor %}
 {% endif %}
