@@ -8,3 +8,4 @@ defaults:
 collections:
   wedstrijden:
     output: true
+permalink: pretty
