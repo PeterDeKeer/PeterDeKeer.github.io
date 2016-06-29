@@ -5,7 +5,7 @@ result: 1u20
 link: https://connect.garmin.com/modern/activity/708851845
 ---
 [Check het uit op garmin!]({{ page.link }})
-Schoon weer, meewind! En nog geen beetje!hhhh
+Schoon weer, meewind! En nog geen beetje!
 
 Niet veel beter als verwacht, hartslag nog altijd héél hoog.
 
