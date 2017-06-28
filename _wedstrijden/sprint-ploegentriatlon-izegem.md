@@ -5,7 +5,7 @@ link: http://www.izegemsetriatlon.be/index.php?id=197
 ---
 
 
-<form name="contact" netlify>
+<form name="contact" action="/" netlify>
   <p>
     <label>Your Name:</label>
     <input type="text" name="name">
