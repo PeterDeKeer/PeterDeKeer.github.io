@@ -9,3 +9,4 @@ collections:
   wedstrijden:
     output: true
 permalink: pretty
+include: [_headers]
