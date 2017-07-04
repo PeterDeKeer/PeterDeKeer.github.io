@@ -1,4 +1,4 @@
-User-agent: RED.
+User-agent: RED
 Allow: /
 User-agent: *
 Disallow: /
