@@ -9,4 +9,4 @@ collections:
   wedstrijden:
     output: true
 permalink: pretty
-include: [_headers]
+include: [_headers],[_redirects]
