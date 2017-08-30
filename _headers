@@ -4,4 +4,4 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer-when-downgrade
-  Link: </IMG_3854_rbwtfg.jpg>; rel=preload; as=image
+  Link: </img/dpr_auto,q_auto,w_auto:200:900/IMG_3854_rbwtfg.jpg>; rel=preload; as=image
