@@ -20,5 +20,5 @@ title: T0-Triatlon ervaringen
 {% endfor %}
 
 <img src="https://res.cloudinary.com/pdk/dpr_auto,q_auto,w_auto:200:900/IMG_3854_rbwtfg" sizes="100vw">
-<img src="/img/IMG_3854_rbwtfg.jpg">
+<img src="/img/w_200/IMG_3854_rbwtfg.jpg">
 <img src="/IMG_3854_rbwtfg.jpg" sizes="100vw">
