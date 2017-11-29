@@ -20,11 +20,11 @@ title: T0-Triatlon ervaringen
 {% endfor %}
 
 <img src="https://res.cloudinary.com/pdk/dpr_auto,q_auto,w_auto:200:900/IMG_3854_rbwtfg" sizes="100vw">
-<img src="https://www.tixiv.be/img/w_200/IMG_3854_rbwtfg.jpg">
+<img src="https://www.tixiv.be/img/w_200/IMG_3854_rbwtfg.jpg"  sizes="100vw">
 <img src="/IMG_3854_rbwtfg.jpg" sizes="100vw">
 
 Much better?
 
 
 <img src="https://res.cloudinary.com/pdk/image/upload/c_fill,g_auto,ar_16:9/dpr_auto,q_auto/w_auto:breakpoints/IMG_3854_rbwtfg" sizes="100vw">
-                                                                                                                                            <img src="https://www.tixiv.be/img/c_fill,g_auto,ar_16:9/dpr_auto,q_auto/w_auto:breakpoints/IMG_3854_rbwtfg">
+                                                                                                                                            <img src="https://www.tixiv.be/img/c_fill,g_auto,ar_16:9/dpr_auto,q_auto/w_auto:breakpoints/IMG_3854_rbwtfg" sizes="100vw">
