@@ -1,0 +1,9 @@
+;Hartslag;;Snelheid;;Snelheid;
+;BPM;;km/h;;min/km;
+;min;max;min;max;min;max
+Recuperatie;<;136;<;7,4;<;8:07
+Lange duur;136;143;7,4;8,3;8:07;7:13
+Extensieve duur;143;149;8,3;9,2;7:13;6:30
+Intensieve duur;149;161;9,2;11;6:30;5:27
+Tempo interval;161;191;11;16,2;5:27;3:42
+Weerstand;191;>;16,2;>;3:42;>
