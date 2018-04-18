@@ -7,7 +7,7 @@ title: T0-Triatlon ervaringen
 {% for wedstrijd in sortedwedstrijden %}
 {% assign wedstrijddate = wedstrijd.date | date: '%s' %}
 {% if wedstrijddate > nu %}
-* {{ wedstrijd.date }} -- {{ wedstrijd.date | date: "%a, %b %d, %Y" }} - <a href="{{ wedstrijd.url }}">{{ wedstrijd.title }}</a>
+* {{ wedstrijd.date | date: "%B %-d, %Y" }} - <a href="{{ wedstrijd.url }}">{{ wedstrijd.title }}</a>
 {% endif %}
 {% endfor %}
 
@@ -15,7 +15,7 @@ title: T0-Triatlon ervaringen
 {% for wedstrijd in sortedwedstrijden %}
 {% assign wedstrijddate = wedstrijd.date | date: '%s' %}
 {% if wedstrijddate < nu %}
-* {{ wedstrijd.date }} -- {{ wedstrijd.date | date: "%a, %b %d, %Y" }} - <a href="{{ wedstrijd.url }}">{{ wedstrijd.title }}</a>
+* {{ wedstrijd.date | date: "%B %-d, %Y" }} - <a href="{{ wedstrijd.url }}">{{ wedstrijd.title }}</a>
 {% endif %}
 {% endfor %}
 
