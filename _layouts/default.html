@@ -17,6 +17,7 @@
     ::selection {background-color: #eee8d5;}
   </style>
   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <script src="/js/iolazy.min.js" defer></script>
 </head>
 <body>
   <header>
@@ -31,5 +32,6 @@
   </footer>
   <script src="/js/instantclick.min.js" data-no-instant></script>
   <script data-no-instant>InstantClick.init();</script>
+  <script data-no-instant>document.addEventListener("DOMContentLoaded", function () {new IOlazy();});</script>
 </body>
 </html>
