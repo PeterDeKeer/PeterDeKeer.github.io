@@ -5,3 +5,4 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer-when-downgrade
   Link: </js/instantclick.min.js>; rel=preload; as=script
+  Link: </js/iolazy.min.js>; rel=preload; as=script
