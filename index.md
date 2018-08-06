@@ -35,4 +35,4 @@ https://res.cloudinary.com/demo/w_auto:100:512/bike.jpg	512w,
 https://res.cloudinary.com/demo/w_auto:100:640/bike.jpg	640w,
 https://res.cloudinary.com/demo/w_auto:100:1024/bike.jpg	1024w,
 https://res.cloudinary.com/demo/w_auto:100:1280/bike.jpg	1280w,
-https://res.cloudinary.com/demo/w_auto:100:2048/bike.jpg	2048w" src="https://res.cloudinary.com/demo/w_auto:100:1024/bike.jpg" alt="To each according to his Smiling girl with a bike"/>
+https://res.cloudinary.com/demo/w_auto:100:2048/bike.jpg	2048w" src="https://res.cloudinary.com/demo/dpr_auto,q_auto/bike.jpg" alt="To each according to his Smiling girl with a bike"/>
