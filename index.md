@@ -28,3 +28,11 @@ Much better?
 
 <img data-src="https://res.cloudinary.com/pdk/image/upload/c_fill,g_auto,ar_16:9/dpr_auto,q_auto/w_auto:breakpoints/IMG_3854_rbwtfg" sizes="100vw"  class="lazyload">
                                                                                                                                             <img data-src="https://www.tixiv.be/img/c_fill,g_auto,ar_16:9/dpr_auto,q_auto/w_auto:breakpoints/IMG_3854_rbwtfg" sizes="100vw"  class="lazyload">
+
+
+<img sizes="100vw" srcset="http://res.cloudinary.com/demo/w_auto:100:320/bike.jpg	320w,
+http://res.cloudinary.com/demo/w_auto:100:512/bike.jpg	512w,
+http://res.cloudinary.com/demo/w_auto:100:640/bike.jpg	640w,
+http://res.cloudinary.com/demo/w_auto:100:1024/bike.jpg	1024w,
+http://res.cloudinary.com/demo/w_auto:100:1280/bike.jpg	1280w,
+http://res.cloudinary.com/demo/w_auto:100:2048/bike.jpg	2048w" src="http://res.cloudinary.com/demo/w_auto:100:1024/bike.jpg" alt="To each according to his Smiling girl with a bike"/>
